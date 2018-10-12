@@ -86,7 +86,7 @@ public class Robot extends IterativeRobot {
 		
 		/* Motion Magic Configurations */
 		_rightMaster.configMotionAcceleration(1000, Constants.kTimeoutMs); //changed from 2000
-		_rightMaster.configMotionCruiseVelocity(1000, Constants.kTimeoutMs); // changed from 2000
+		_rightMaster.configMotionCruiseVelocity(2000, Constants.kTimeoutMs); // changed from 2000
 
 		/* Max out the peak output (for all modes).  
 		 * However you can limit the output of a given PID object with configClosedLoopPeakOutput().
